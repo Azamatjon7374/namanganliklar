@@ -1,0 +1,532 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Rubik", "Areal", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.top_hr{
+width: 100%;
+height: 4px;
+left: 0px;
+top: 0px;
+background: #295093;
+margin-bottom: 43px;
+}
+/* header stsrt*/
+.top_left{
+    display: flex;
+    align-items: center;
+}
+.logo{
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+color: #295091;
+margin-right: 23px;
+width: 320px;
+height: 40px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+border-radius: 5px;
+}
+.namangan_menu{
+    display: flex;
+    list-style-type: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #7A7A7A;
+}
+.room_number{
+display: inline-block;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #285193;
+}
+.namangan_item{
+    margin-right: 20px;
+}
+.namangan_item:nth-child(3){
+    margin-right: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.top_right{
+    display: flex;
+    list-style-type: none;
+}
+.top_right_item{
+    margin-right: 10px;
+}
+.tranlation{
+    display: flex;
+   
+}
+.telegram{
+    display: flex;
+}
+.lupa_menu_img{
+    width: 38.1px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-right: 22px;
+    padding: 8px;
+}
+.lupa_img{
+    width: 20px;
+    height: 20px;
+    color: #535353;
+}
+.tranlation{
+    padding: 10px 8px 10px 11px;
+    margin-right: 23px;
+}
+.flaf_img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 18px;
+}
+.ru{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #535353;
+}
+.telegram{
+width: 146px;
+height: 40px;
+padding: 10px 12px 8px 10px;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+}
+.telegram_img{
+width: 20px;
+height: 20px;
+margin-right: 7px;
+}
+.telegram_azo{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+/* nav start*/
+nav{
+    margin-bottom: 40px;
+}
+.nav_menu{
+    display: flex;
+    list-style-type: none;
+}
+.nav_menu_item{
+    margin-right: 20px;
+    
+}
+.nav_link{
+text-decoration: none;
+font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+color: #515151;
+}
+/* NRG BANNER*/
+.banner{
+width: 1200px;
+height: 99px;
+border: 1px solid #E0E0E0;
+margin-bottom: 45px;
+}
+.banner_img{
+    width: 1200px;
+    height: 99px;
+}
+/*   covid info*/
+.info{
+width: 1200px;
+height: 133px;
+display: flex;
+align-items: center;
+background: #F6F6F9;
+border-radius: 5px;
+padding: 30px 0px 29px 35px;
+margin-bottom: 18px;
+}
+.virus_img{
+width: 43px;
+height: 45px;
+background: url(2659980.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+margin-right: 25px;
+}
+.info_text_one{
+width: 232px;
+height: 50px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-right: 71px;
+}
+.vertical_one{
+width: 2px;
+height: 74px;
+background: #EB5569;
+margin-right: 30px;
+border: #EB5569;
+}
+.maska_img{
+width: 38px;
+height: 40px;
+margin-right: 17px;
+}
+.info_text_two{
+width: 161px;
+height: 52px;
+margin-right: 42px;
+}
+.two_title{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #DB0000;
+}
+.two_number{
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+.vertical_two{
+width: 2px;
+height: 49px;
+background: #F4CCD1;
+border:#F4CCD1;
+margin-right: 30px;
+}
+.green_face_img{
+    width: 38px;
+    height: 40px;
+    margin-right: 19px;
+}
+.info_text_three{
+width: 161px;
+height: 52px;
+margin-right: 9px;
+}
+.three_title{
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #05B135;
+}
+.three_number{
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+.vertical_three{
+width: 2px;
+height: 49px;
+background: #F4CCD1;
+border: #F4CCD1;
+margin-right: 27px;
+}
+.black_img{
+    width: 38px;
+    height: 38.58px;
+    margin-right: 19px;
+}
+.info_text_four{
+width: 161px;
+height: 52px;
+}
+.four_title{
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.four_number{
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+
+/* COVID INFO END*/
+
+/*  HEADER END*/
+
+
+/*  MAIN START*/
+
+.menu_item{
+    margin: 0px 14px 18px 0px;
+    width: 386px;
+}
+.prezident_img{
+width: 386px;
+height: 190px;
+border-radius: 5px;
+}
+.item_text{
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+width: 380px;
+height: 42px;
+margin-bottom: 11px;
+}
+.time{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+width: 125px;
+height: 19px;
+color: #6B6D97;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.xizmat{
+width: 1200px;
+height: 91px;
+display: flex;
+align-items: center;
+background: rgba(239, 186, 84, 0.18);
+border-radius: 5px;
+padding: 28px 20px 24px 34px;
+margin-bottom: 38px;
+}
+.xizmat_img{
+width: 31px;
+height: 35px;
+margin-right: 17px;
+}
+.xizmat_text{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+width: 610px;
+height: 26px;
+color: #000000;
+margin-right: 224px;
+}
+.xizmat_left{
+width: 264px;
+height: 42px;
+left: 1035px;
+top: 1128px;
+background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+border-radius: 5px;
+padding: 8px 8px 8px 15px;
+}
+.xizmat_left_text{
+width: 241px;
+height: 26px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.new_message_title{
+width: 198px;
+height: 26px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-right: 13px;
+}
+.message_img{
+width: 252px;
+height: 143px;
+border-radius: 5px;
+margin-right: 19px;
+}
+.new_message_left{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.message_item{
+    display: flex;
+    margin-bottom: 18px;
+}
+.small_title_one{
+width: 434px;
+height: 42px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+margin-bottom: 8px;
+}
+.small_text_one{
+width: 512px;
+height: 55px;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #434343;
+margin-bottom: 12px;
+}
+.data_img{
+    width: 18px;
+    height: 20px;
+    margin-right: 1px;
+}
+.message_time{
+width: 512px;
+height: 19px;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #7688A4;
+}
+.info_time{
+    display: flex;
+    align-items: center;
+}
+.small_title_two{
+width: 507px;
+height: 42px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+margin-bottom: 8px;
+}
+.small_text_two{
+width: 512px;
+height: 55px;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #434343;
+margin-bottom: 12px;
+}
+.small_title_three{
+    width: 523px;
+height: 42px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+margin-bottom: 8px;
+}
+.small_text_three{
+    width: 512px;
+height: 56px;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #434343;
+margin-bottom: 12px;
+}
+.small_title_four{
+    width: 434px;
+    height: 42px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+margin-bottom: 8px;
+}
+.small_text_four{
+    width: 512px;
+height: 55px;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #434343;
+margin-bottom: 12px;
+}
+.small_title_five{
+    width: 507px;
+height: 42px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #202020;
+margin-bottom: 8px;
+}
+.small_text_five{
+    width: 512px;
+height: 55px;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #434343;
+margin-bottom: 12px;
+}
+.small_title_six{
+    width: 523px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-bottom: 8px;
+}
+.small_text_six{
+    width: 512px;
+    height: 56px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+    margin-bottom: 12px;
+}
+.message_left_link{
+    text-decoration: none;
+}
+.big_new{
+width: 211px;
+height: 42px;
+background: #295093;
+border-radius: 5px;
+padding: 10px 32px;
+text-align: center;
+display: inline-block;
+}
+.big_new_word{
+width: 148px;
+height: 22px;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.link_big{
+    display: flex;
+    justify-content: center;
+}
+.new_message{
+    display: flex;
+    justify-content: center;
+}
